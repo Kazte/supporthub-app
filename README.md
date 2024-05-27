@@ -18,9 +18,9 @@
 ### Backend
 
 - Honojs
-- EdgeDB ORM
+- Prisma
 
 ### Database
 
-- EdgeDB
+- SQLite
 - Redis
