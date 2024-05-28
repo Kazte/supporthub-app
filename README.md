@@ -11,13 +11,9 @@
 - React Hook Form
 - Tanstack Router
 
-### Communication
-
-- GraphQL
-
 ### Backend
 
-- Honojs
+- GraphQL
 - Prisma
 
 ### Database
