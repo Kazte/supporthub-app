@@ -11,16 +11,12 @@
 - React Hook Form
 - Tanstack Router
 
-### Communication
-
-- GraphQL
-
 ### Backend
 
-- Honojs
-- EdgeDB ORM
+- GraphQL
+- Prisma
 
 ### Database
 
-- EdgeDB
+- SQLite
 - Redis
