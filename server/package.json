@@ -1,15 +1,24 @@
 {
+  "name": "supporthub-server",
+  "version": "1.0.0",
   "scripts": {
     "dev": "tsx watch src/index.ts"
   },
   "dependencies": {
-    "@hono/node-server": "^1.11.1",
+    "@apollo/server": "^4.10.4",
+    "@prisma/client": "^5.14.0",
+    "bcrypt": "^5.1.1",
     "dotenv": "^16.4.5",
-    "hono": "^4.4.0",
-    "zod": "^3.23.8"
+    "prisma": "^5.14.0",
+    "zod": "^3.23.8",
+    "jsonwebtoken": "9.0.2"
   },
   "devDependencies": {
+    "@edgedb/generate": "^0.5.3",
+    "@types/bcrypt": "^5.0.2",
     "@types/node": "^20.11.17",
-    "tsx": "^4.7.1"
+    "graphql": "^16.8.1",
+    "tsx": "^4.7.1",
+    "@types/jsonwebtoken": "9.0.6"
   }
 }
