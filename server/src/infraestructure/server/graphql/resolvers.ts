@@ -1,3 +1,5 @@
+import { createUserController } from './../../user/dependencies';
+
 export const resolvers = {
   Query: {
     getUser: async () => {
@@ -5,11 +7,7 @@ export const resolvers = {
     }
   },
   Mutation: {
-    createUser: async () => {
-      return {};
-    },
-    loginUser: async () => {
-      return {};
-    }
+    createUser: createUserController.createUserRun.bind(createUserController),
+    loginUser: createUserController.loginUserRun.bind(createUserController)
   }
 };
